@@ -4,36 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Open Source Innovation',
+    Svg: require('@site/static/img/circuit_board.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        OpenArgo embodies the spirit of open-source innovation with its custom electrical hardware. Every circuit and component is designed to be shared, studied, and enhanced by the community, driving collective advancement.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Warehouse-Style Mobility',
+    Svg: require('@site/static/img/building_blocks.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        OpenArgo is designed as a warehouse-style mobile robot, filling a crucial gap in the open-source robotics space. Its platform allows for seamless extensibility, making it easy to add components and modules to the top, tailored to your specific needs.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Accessible and Adaptable',
+    Svg: require('@site/static/img/solution_mindset.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        OpenArgo is crafted to be user-friendly and highly adaptable. Whether you're a hobbyist, educator, or researcher, you can easily modify its features to suit your project needs, promoting creativity and experimentation.
       </>
     ),
   },
 ];
+
 
 function Feature({Svg, title, description}) {
   return (
