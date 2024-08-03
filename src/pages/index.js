@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="A Hardware First, Open Source, Mobile Robot">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
