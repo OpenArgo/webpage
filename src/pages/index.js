@@ -34,8 +34,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="A Hardware First, Open Source, Mobile Robot">
+      title={`Read the Docs for ${siteConfig.title}`}
+      description="Hardware First - Fully Open Source - Mobile Robotics Platform">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
