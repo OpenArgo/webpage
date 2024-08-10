@@ -8,10 +8,12 @@ ArgoBot 0 is the first robot in the Argo ecosystem. This is meant to be the mini
 
 ## Modules
 
+![img](./ArgoBot0.png)
+
 - [ArgoPi](/docs/modules/ArgoPi)
-    - Raspberry Pi 4
-    - Raspberry Pi Global Shutter Camera
-    - RPLiDAR C1
+    - [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+    - [Raspberry Pi Global Shutter Camera](https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/)
+    - [RPLiDAR C1](https://www.slamtec.ai/product/slamtec-rplidar-c1/)
 - [ArgoDrive](/docs/modules/ArgoDrive) (2x)
 - [ArgoHub](/docs/modules/ArgoHub)
 - [ArgoPower](/docs/modules/ArgoPower)
