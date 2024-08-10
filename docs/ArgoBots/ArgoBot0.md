@@ -8,8 +8,6 @@ ArgoBot 0 is the first robot in the Argo ecosystem. This is meant to be the mini
 
 ## Modules
 
-![img](./ArgoBot0.png)
-
 - [ArgoPi](/docs/modules/ArgoPi)
     - [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
     - [Raspberry Pi Global Shutter Camera](https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/)
@@ -17,3 +15,5 @@ ArgoBot 0 is the first robot in the Argo ecosystem. This is meant to be the mini
 - [ArgoDrive](/docs/modules/ArgoDrive) (2x)
 - [ArgoHub](/docs/modules/ArgoHub)
 - [ArgoPower](/docs/modules/ArgoPower)
+
+![img](./ArgoBot0.png)
