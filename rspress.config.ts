@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { defineConfig } from 'rspress/config';
+import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   root: 'docs',
@@ -65,7 +65,7 @@ export default defineConfig({
         content: 'https://github.com/OpenArgo/',
       },
       {
-        icon: 'twitter',
+        icon: 'x',
         mode: 'link',
         content: 'https://x.com/OpenArgo',
       },

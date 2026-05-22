@@ -2,6 +2,7 @@
   "name": "openargo-docs",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "rspress dev",
     "start": "rspress dev",
@@ -10,17 +11,17 @@
     "deploy": "npm run build && wrangler pages deploy ./doc_build"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "rspress": "^2.0.0-beta.21"
+    "@rspress/core": "^2.0.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "typescript": "^5.0.0",
     "wrangler": "^3.65.1"
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=20.0"
   }
 }
