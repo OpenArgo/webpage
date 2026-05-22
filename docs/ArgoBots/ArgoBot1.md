@@ -1,6 +1,6 @@
 # ArgoBot 1
 
-:::danger[WIP]
+:::danger
 This document is still under construction! Thank you for your patience.
 :::
 
@@ -8,10 +8,10 @@ ArgoBot 1 is intended to be an industrial style robot that is designed for attac
 
 ## Modules
 
-- [ArgoPi](/docs/modules/ArgoPi)
+- [ArgoPi](/modules/ArgoPi)
     - [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
     - [Raspberry Pi Global Shutter Camera](https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/)
     - [RPLiDAR C1](https://www.slamtec.ai/product/slamtec-rplidar-c1/)
-- [ArgoDrive](/docs/modules/ArgoDrive) (4x)
-- [ArgoHub](/docs/modules/ArgoHub)
-- [ArgoPower](/docs/modules/ArgoPower)
+- [ArgoDrive](/modules/ArgoDrive) (4x)
+- [ArgoHub](/modules/ArgoHub)
+- [ArgoPower](/modules/ArgoPower)

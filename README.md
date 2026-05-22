@@ -1,40 +1,39 @@
-<<<<<<< HEAD
-# Website
+# OpenArgo Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentation site for [OpenArgo](https://openargo.com), built with [RSPress](https://rspress.dev).
 
-### Installation
+## Development
 
-```
-$ yarn
-```
-
-### Local Development
+Install dependencies:
 
 ```
-$ yarn start
+npm install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+Start the dev server:
 
 ```
-$ yarn build
+npm run dev
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+## Build
 
 ```
-$ USE_SSH=true yarn deploy
+npm run build
 ```
 
-Not using SSH:
+Output goes to `doc_build/`.
+
+Preview the production build locally:
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+npm run preview
 ```
+
+## Deploy
+
+```
+npm run deploy
+```
+
+Builds and deploys to Cloudflare Pages via Wrangler.

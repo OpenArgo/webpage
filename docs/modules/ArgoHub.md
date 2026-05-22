@@ -1,6 +1,6 @@
 # ArgoHub
 
-:::danger[WIP]
+:::danger
 This document is still under construction! Thank you for your patience.
 :::
 

@@ -3,10 +3,10 @@
 
 # Production
 /build
+/doc_build
 
 # Generated files
-.docusaurus
-.cache-loader
+.temp
 
 # Misc
 .DS_Store

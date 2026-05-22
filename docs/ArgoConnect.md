@@ -1,6 +1,6 @@
 # ArgoConnect
 
-:::danger[WIP]
+:::danger
 This document is still under construction! Thank you for your patience.
 :::
 
@@ -21,4 +21,3 @@ Why T1S?
 Why 12V?
 
 ### The Connector
-
