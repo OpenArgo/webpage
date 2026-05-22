@@ -5,9 +5,21 @@ export default defineConfig({
   root: 'docs',
   title: 'OpenArgo',
   description: 'A Hardware First, Fully Open Source, Mobile Robot',
-  icon: '/img/favicon.ico',
   logo: '/img/logo.png',
   globalStyles: path.join(__dirname, 'styles/index.css'),
+  builderConfig: {
+    html: {
+      favicon: path.join(__dirname, 'static/img/favicon.ico'),
+    },
+    server: {
+      publicDir: [
+        {
+          name: path.join(__dirname, 'static'),
+          copyOnBuild: true,
+        },
+      ],
+    },
+  },
   themeConfig: {
     nav: [
       { text: 'Docs', link: '/intro', activeMatch: '^(?!/($))' },
